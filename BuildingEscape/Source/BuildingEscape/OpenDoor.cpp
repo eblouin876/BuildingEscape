@@ -1,8 +1,9 @@
 // Copyright Emile Blouin 2019
 
-#include "GameFramework/Actor.h"
 
 #include "OpenDoor.h"
+
+#include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
