@@ -28,9 +28,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	UPROPERTY(EditAnywhere)
 	float OpenAngle = 0.f;
-	UPROPERTY(EditAnywhere)
 	float ClosedAngle = 90.f;
 
 	UPROPERTY(EditAnywhere)
@@ -40,7 +38,7 @@ private:
 	ATriggerVolume* SecondaryTrigger;
 
 	UPROPERTY(EditAnywhere)
-	float DoorCloseDelay = 1.f;
+	float DoorCloseDelay = .5f;
 
 	float LastDoorOpenTime;
 
