@@ -24,8 +24,6 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
-	UE_LOG(LogTemp, Warning, TEXT("%s is the pawn"), *ActorThatOpens->GetName()); // Logs the name of the actor TODO: REMOVE WHEN DONE TESTING
-
 }
 
 void UOpenDoor::OpenDoor()
